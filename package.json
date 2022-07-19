@@ -1,16 +1,25 @@
 {
   "name": "@nitwatar/npm-calculator-package",
   "version": "1.0.0",
-  "description": "",
+  "description": "Example project for calculator packages",
   "main": "index.js",
   "type":"module",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/@nitwatar"
+    "registry": "https://npm.pkg.github.com"
   },
+  "author": "Atar Pandey <atar.pandey@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitwatar/npm-calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nitwatar/npm-calculator/issues"
+  },
+  "homepage": "https://github.com/nitwatar/npm-calculator",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": []
+ 
 }
